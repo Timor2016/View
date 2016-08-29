@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //自定义属性名,定义公共属性
+    <attr name="titleSize" format="dimension"></attr>
+    <attr name="titleColor" format="color"></attr>
+    <attr name="outCircleColor" format="color"></attr>
+    <attr name="inCircleColor" format="color"></attr>
+    <attr name="inCircleBound" format="dimension"></attr>
+    <attr name="outCircleBound" format="dimension"></attr>
+
+    //自定义控件的主题样式
+    <declare-styleable name="MySportView">
+        <attr name="titleSize"></attr>
+        <attr name="titleColor"></attr>
+        <attr name="outCircleColor"></attr>
+        <attr name="inCircleColor"></attr>
+        <attr name="inCircleBound"></attr>
+        <attr name="outCircleBound"></attr>
+    </declare-styleable>
+
+    //仿健康界面
+    <attr name="mTitleSize" format="dimension"></attr>
+    <attr name="mTitleColor" format="color"></attr>
+    <attr name="mTitleText" format="string"></attr>
+    <attr name="mKeytextSize" format="dimension"></attr>
+    <attr name="mKeytextColor" format="color"></attr>
+    <attr name="mKeytextText" format="string"></attr>
+    <attr name="mEndtextSize" format="dimension"></attr>
+    <attr name="mEndtextColor" format="color"></attr>
+    <attr name="mEndtextText" format="string"></attr>
+    <attr name="mBackgroundColor" format="color"></attr>
+    <attr name="mColor" format="color"></attr>
+    <declare-styleable name="MyHealthView">
+        <attr name="mTitleSize"></attr>
+        <attr name="mTitleColor"></attr>
+        <attr name="mTitleText"></attr>
+        <attr name="mKeytextSize"></attr>
+        <attr name="mKeytextColor"></attr>
+        <attr name="mKeytextText"></attr>
+        <attr name="mEndtextSize"></attr>
+        <attr name="mEndtextColor"></attr>
+        <attr name="mEndtextText"></attr>
+        <attr name="mBackgroundColor"></attr>
+        <attr name="mColor"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="HealthCircleView">
+        <attr name="textSize" format="dimension"></attr>
+        <attr name="keyTextSize" format="dimension"></attr>
+        <attr name="circleBackground" format="color"></attr>
+        <attr name="circleColor" format="color"></attr>
+    </declare-styleable>
+</resources>

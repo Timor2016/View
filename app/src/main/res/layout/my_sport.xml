@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#555555"
+    tools:context=".activity.MainActivity">
+    <com.wc.viewtext1.view.MySportView
+        android:id="@+id/sport_view"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_margin="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:background="#aaaaaa"
+        app:inCircleColor="#000000"
+        app:outCircleColor="@color/colorAccent"
+        app:titleColor="@color/colorPrimary"
+        app:titleSize="50dp"/>
+
+</RelativeLayout>

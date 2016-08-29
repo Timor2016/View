@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ViewText1</string>
+    <string name="text">截至%1$s已走</string>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--<attr name="textSize" format="dimension"></attr>
+        <attr name="keyTextSize" format="dimension"></attr>
+        <attr name="circleBackground" format="color"></attr>
+        <attr name="circleColor" format="color"></attr>-->
+    <style name="HealthCircleView">
+        <item name="textSize">16sp</item>
+        <item name="keyTextSize">28sp</item>
+        <item name="circleBackground">#555555</item>
+        <item name="circleColor">#22ff44</item>
+    </style>
+
+</resources>

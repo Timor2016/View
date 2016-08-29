@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.wc.viewtext1.view.RippleView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/reveal_color_ither"
+        android:text="微博运动积分的实现"/>
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/reveal_color_ither"
+        android:text="健康圆环的实现"/>
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/reveal_color_ither"
+        android:text="健康圆环的实现"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/reveal_color_ither"
+        android:text="健康圆环的实现"/>
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/reveal_color_ither"
+        android:text="水波纹效果"/>
+
+</com.wc.viewtext1.view.RippleView>
